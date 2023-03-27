@@ -1,0 +1,61 @@
+body {
+    text-align: center;
+    margin: 0px;
+    background-image: url('images/background.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: left;
+    min-height: 100vh;
+    color: #0081B4;
+
+}
+
+img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+h1 {
+    font-family: 'Rowdies', cursive;
+    font-weight: 700;
+    font-size: 80px;
+}
+
+main {
+    margin-top: auto;
+    margin-bottom: auto;
+    backdrop-filter: blur(8px);
+    min-height: 100vh;
+
+}
+
+div {
+    display: inline-block;
+}
+
+#container {
+    margin: 0 auto;
+    width: 1000px;
+    height: 100vh;
+    max-width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+p {
+    font-family: 'Rowdies', cursive;
+    font-size: 30px;
+}
+
+.headpara {
+    font-family: 'Indie Flower', cursive;
+}
+
+.pressed {
+    box-shadow: 0 3px 4px 0 #DBEDF3;
+    opacity: 0.5;
+}
